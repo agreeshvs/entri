@@ -1,0 +1,28 @@
+h2 {
+    color: orangered;
+}
+
+* {
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+p {
+    color: red;
+    background-color: beige;
+}
+
+#p1 {
+    color: green;
+    background-color: aqua;
+}
+
+.p2 {
+    color: blueviolet;
+    ;
+    background-color: blanchedalmond;
+}
+
+.p2 {
+    background-color: lightgray;
+}

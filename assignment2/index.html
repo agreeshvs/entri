@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <!-- Main Heading for the Portfolio -->
+        <h1>My Portfolio</h1>
+        <!-- Navigation Menu prompting users to jump to different sections -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- About Me: A brief description with image -->
+        <section id="about">
+            <article>
+                <h2>About Me</h2>
+                <p>Hello! I'm a Full stack developer with experience in building
+                    responsive and user-friendly websites.</p>
+                <figure>
+                    <img src="./images/portfolio.jpg" alt="Profile Image of Developer" width="200">
+                    <figcaption>Profile Image</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <!-- Projects Section: Showcases selected works with links -->
+        <section id="projects">
+            <article>
+                <h2>Project 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rerum sequi consequatur doloremque est
+                    alias ex laboriosam explicabo in doloribus assumenda adipisci debitis, impedit veritatis ut optio
+                    accusantium, repudiandae eius.
+                </p>
+                <a href="https://parabank.parasoft.com/parabank/index.htm;jsessionid=19A6F76A4A7961B28790B3ED8CBB9DCA">Project
+                    1</a>
+            </article>
+            <article>
+                <h2>Project 2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rerum sequi consequatur doloremque est
+                    alias ex laboriosam explicabo in doloribus assumenda adipisci debitis, impedit veritatis ut optio
+                    accusantium, repudiandae eius.
+                </p>
+            </article>
+            <article>
+                <h2>Project 3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rerum sequi consequatur doloremque est
+                    alias ex laboriosam explicabo in doloribus assumenda adipisci debitis, impedit veritatis ut optio
+                    accusantium, repudiandae eius.
+                </p>
+                <a href="https://parabank.parasoft.com/parabank/index.htm;jsessionid=19A6F76A4A7961B28790B3ED8CBB9DCA">Project
+                    1</a>
+            </article>
+        </section>
+        <!-- Contact Section: Allows visitors to send a message -->
+        <section id="contact">
+            <article>
+                <!-- Contact Form -->
+                <form action="">
+                    <!-- Name Input: Required text field with minimum length validation -->
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required minlength="3">
+                    </div>
+                    <!-- Email Input: Required field that validates email format -->
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <!-- Subject Input: Required text with min and max length constraints -->
+                    <div>
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required minlength="3" maxlength="25">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

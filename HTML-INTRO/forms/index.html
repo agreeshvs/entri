@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required minlength="5" 
+        maxlength="10">
+        <br>
+
+        <label>Age:</label>
+        <input type="number" name="age" required min="0">
+        <br>
+
+        <label> Email:</label>
+        <input type="email" required name="email">
+        <br>
+
+        <label >Address:</label>
+        <textarea name="address" 
+            cols="30" rows="10"></textarea>
+        <br>
+
+        <label>Date of birth:</label>
+        <input type="date" name="dob" required>
+        <br>
+
+        <label>Color</label>
+        <input type="color" name="color">
+        <br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$">
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other
+        <br>
+
+        <label>Qualifications:</label>
+        <input type="checkbox" name="q1" value="postgraduation"> Post Graduation
+        <input type="checkbox" name="q2" value="graduation"> Graduation
+        <input type="checkbox" name="q2" value="diploma"> Diploma
+        <input type="checkbox" name="q3" value="sslc"> SSLC
+
+        <br>
+
+        <label>District:</label>
+        <select name="district">
+            <option value="ekm">Ernakulam</option>
+            <option value="tvm">Trivandrum</option>
+            <option value="clt">Kozhikkodu</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
