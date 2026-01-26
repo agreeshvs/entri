@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center mt-3 py-3">Our Team</h2>
+        <div class="row gy-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card p-2">
+                    <img src="./images/lady_1.jpg" class="img-thumbnail card-img-top img-thumbnail" alt="Elena Henry">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Elena Henry</h5>
+                        <h6 class="card-subtitle text-center">Full Stack Developer</h6>
+                        <p class="card-text my-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est,
+                            quibusdam.</p>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#viewProfileModal">View
+                                Profile</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card p-2">
+                    <img src="./images/lady_2.jpg" class="img-thumbnail card-img-top" alt="Adriana Gates">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Adriana Gates</h5>
+                        <h6 class="card-subtitle text-center">UI/UX Designer</h6>
+                        <p class="card-text my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsa.
+                        </p>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#viewProfileModal">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card p-2">
+                    <img src="./images/men_1.jpg" class="img-thumbnail card-img-top" alt="Marlowe Carpenter">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Marlowe Carpenter</h5>
+                        <h6 class="card-subtitle text-center">HR Manager</h6>
+                        <p class="card-text my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsa.
+                        </p>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#viewProfileModal">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card p-2">
+                    <img src="./images/lady_3.avif" class="img-thumbnail card-img-top" alt="Anika Bautista">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Anika Bautista</h5>
+                        <h6 class="card-subtitle text-center">Marketing Head</h6>
+                        <p class="card-text my-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsa.
+                        </p>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#viewProfileModal">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card p-2">
+                    <img src="./images/men_2.png" class="img-thumbnail card-img-top" alt="Raul Robinson">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Raul Robinson</h5>
+                        <h6 class="card-subtitle text-center">Project Coordinator</h6>
+                        <p class="card-text my-2">LLorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsa.
+                        </p>
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                            <button class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#viewProfileModal">View
+                                Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="viewProfileModal" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Elena Henry</p>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./images/lady_1.jpg" alt="Elena Henry"
+                                class="img-fluid rounded-circle mx-auto d-block">
+                            <p class="fw-bold text-muted">Full Stack Developer</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem qui tempore esse
+                                sed
+                                obcaecati a praesentium quo id, modi, dolorum, accusantium tempora nam! Dolor pariatur,
+                                sapiente reiciendis aliquid facilis, ipsa culpa eaque, deleniti natus illo iure
+                                molestiae
+                                deserunt animi.</p>
+                            <p mailto="e.henry@entrygmail.com" class="text-center mt-2 fw-bold">e.henry@entrygmail.com
+                            </p>
+                            <p class="text-center mt-2 fw-bold">9874563021</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
