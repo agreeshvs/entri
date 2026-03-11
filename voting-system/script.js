@@ -21,7 +21,7 @@ document.getElementById('catBtn').addEventListener('click', (e) => {
 })
 
 const updateCount = (id, countVal) => {
-    document.getElementById(id).innerHTML = `<span class="badge badge-info bg-info">${countVal}</alert>`;
+    document.getElementById(id).innerHTML = `<span class="badge badge-info bg-dark">${countVal}</alert>`;
 }
 
 document.getElementById('resultBtn').addEventListener('click', (e) => {
